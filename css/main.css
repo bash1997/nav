@@ -97,6 +97,103 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background: #ebd4cc;
+  color: #514945;
+  width: 100%;
+}
+
+header {
+  background: #d55c5a;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap row;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menuImg {
+  width: 15%;
+}
+
+ion-icon {
+  font-size: 3.125em;
+}
+
+#ionicons {
+  background: white;
+}
+
+nav {
+  width: 100%;
+}
+
+#navMenu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap row;
+  display: none;
+}
+
+#navMenu a {
+  text-decoration: none;
+  color: #f5918f;
+}
+
+#navMenu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#mainNav {
+  background: #894242;
+  color: #f5918f;
+}
+
+ul#mainNav {
+  padding-bottom: .625rem;
+  font-size: 1.75em;
+  box-shadow: 0px 1px 7px #552929;
+  width: inherit;
+  text-align: center;
+}
+
+/* li.subNav {
+  height: 20.75rem;
+} */
+
+div.subNav {
+  background: rgba(180,99,99,1);
+  margin-top: .625rem;
+  font-size: .75em;
+  display: none;
+}
+
+div.subNav li {
+  padding-top: .5rem;
+  padding-bottom: 0;
+  border-bottom: solid 1px #552929
+}
+
+div.subNav ul a {
+  color: #ebd4cc;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +360,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
